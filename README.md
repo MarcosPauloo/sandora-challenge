@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plataforma de Autenticação - Marcos Paulo
 
-## Getting Started
+Este projeto é uma interface moderna e acessível para um sistema de **Login** e **Cadastro**, desenvolvido com **Next.js**, **React**, **TailwindCSS** e **ShadCN/UI**. A estrutura do layout foi projetada para proporcionar uma experiência agradável, acessível e responsiva ao usuário.
 
-First, run the development server:
+## 👤 Autor
+
+- **Nome:** Marcos Paulo  
+- **GitHub:** [@MarcosPauloo](https://github.com/MarcosPauloo)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js**
+- **React**
+- **TailwindCSS**
+- **ShadCN/UI**
+- **React Hook Form**
+- **Zod**
+- **TypeScript**
+
+---
+
+## 🎨 Características do Projeto
+
+- ✅ Fidelidade visual ao design proposto (desktop)
+- ✅ Organização e semântica do código
+- ✅ Utilização de HTML semântico e boas práticas com TailwindCSS
+- ✅ Componentização com foco em **reutilização**
+- ✅ **Responsividade** em diferentes tamanhos de tela (incluindo versão mobile)
+- ✅ Foco na **experiência do usuário (UX)**
+- ✅ Código limpo, legível e bem documentado
+- ✅ Validação de formulários com **Zod** e **React Hook Form**
+- ✅ Campos reativos e controlados com boas práticas de estado
+- ✅ **Acessibilidade básica** (uso de `aria-label`, contraste, navegação por teclado)
+
+---
+
+## 📋 Funcionalidades
+
+### 🟢 Login
+- Campos: **Email** e **Senha**
+- Validação dos campos obrigatórios
+- Exibição de erros claros
+- Botão para visualizar senha (ícone de “olhinho”)
+
+### 🆕 Cadastro
+- Campos: **Nome**, **Empresa**, **Email**, **Senha**, **Confirmação de Senha**
+- Validação de todos os campos
+- Verificação de que as senhas coincidem
+- Feedback de erro e sucesso
+
+---
+
+## 📱 Responsividade
+
+- Mobile First com TailwindCSS
+- Ajustes visuais para tablets e smartphones
+- Layout de duas colunas em telas grandes e layout em coluna única em telas menores
+
+---
+
+## ♿ Acessibilidade
+
+- Navegação por teclado suportada
+- Uso de atributos `aria-*` nos componentes de formulário
+- Contraste adequado entre texto e fundo
+- Inputs com `label` associado
+
+---
+
+## 🧪 Instalação e Execução
 
 ```bash
+# Clone o repositório
+git clone https://github.com/MarcosPauloo/sandora-challenge.git
+
+# Acesse a pasta
+cd sandora-challenge
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Melhorias Futuras
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Integração com backend real para autenticação
+- Esquema de autenticação com JWT
+- Mensagens de toast para feedback
+- Validação de força da senha
+- Testes automatizados com Jest
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Feito com 💻 por Marcos Paulo**
