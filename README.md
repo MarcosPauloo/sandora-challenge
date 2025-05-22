@@ -1,6 +1,6 @@
-# Plataforma de Autenticação - Marcos Paulo
+# Plataforma de Autenticação - Sandora.me - Marcos Paulo
 
-Este projeto é uma interface moderna e acessível para um sistema de **Login** e **Cadastro**, desenvolvido com **Next.js**, **React**, **TailwindCSS** e **ShadCN/UI**. A estrutura do layout foi projetada para proporcionar uma experiência agradável, acessível e responsiva ao usuário.
+Este projeto é uma interface moderna e acessível para um sistema de **Login** e **Cadastro** solicitado no desafio técnico da Sandora.me, desenvolvido com **Next.js**, **React**, **TailwindCSS** e **ShadCN/UI**. A estrutura do layout foi projetada para proporcionar uma experiência agradável, acessível e responsiva ao usuário.
 
 ## 👤 Autor
 
