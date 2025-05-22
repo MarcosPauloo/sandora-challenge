@@ -9,18 +9,21 @@ interface AuthLayoutProps {
 
 export function AuthLayout({leftContent, rightContent}: AuthLayoutProps) {
   return (
-    <div className="flex min-h-screen">
-      <div className="w-1/2 bg-primary-foreground flex flex-col items-start justify-center px-[76px]">
-        <div className="absolute top-6 left-[76px]">
-          <img src="/images/logo.svg" alt="Logo da Empresa" className="h-[1.5rem] w-auto" />
+    <main className="flex flex-col lg:flex-row min-h-screen">
+      {/* Lado esquerdo */}
+      <section className="w-full lg:w-1/2 bg-primary-foreground flex flex-col justify-center items-start px-8 md:px-16 py-10 relative">
+        <div className="absolute top-8 left-8 md:top-6 md:left-16">
+          <img src="/images/logo.svg" alt="Logo da Empresa" className="h-6 md:h-8 w-auto" />
         </div>
-        {leftContent}
-      </div>
-      <div className="w-1/2 flex items-center justify-center p-8 bg-primary text-[20px]">
-        <div className="flex justify-center items-start bg-primary-foreground w-[60%] rounded-2xl p-8">
-          {rightContent}        
+        <div className="mt-16">{leftContent}</div>
+      </section>
+
+      {/* Lado direito */}
+      <section className="w-full lg:w-1/2 flex items-start lg:items-center justify-center px-8 py-16 lg:py-0 lg:px-8 bg-primary text-base flex-1">
+        <div className="w-full max-w-md bg-primary-foreground rounded-2xl p-6 sm:p-8">
+          {rightContent}
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

@@ -29,7 +29,7 @@ export function FormRegister(){
     return (
         <Form {...form}>
             <form className="space-y-4 w-full" onSubmit={form.handleSubmit(onSubmit)}>
-                <h1 className="text-[30px] font-semibold text-foreground">Cadastro</h1> 
+                <h1 className="text-[24px] md:text-[30px] font-semibold text-foreground">Cadastro</h1> 
                 <FormFieldCustom name="name" control={form.control} label="Nome completo" placeholder="Como você será identificada na plataforma." type="text"/>
                 <FormFieldCustom name="company" control={form.control} label="Empresa" placeholder="Insira o nome da empresa." type="text"/>
                 <FormFieldCustom name="email" control={form.control} label="Email" placeholder="Será usado para login e comunicações." type="email"/>
@@ -42,7 +42,7 @@ export function FormRegister(){
                 >
                     Ao criar sua conta, você concorda com nossos <HoverUseTerm/> e <span className="text-primary underline">Política de Privacidade.</span>
                 </p>
-                <Button type="submit" className="w-full text-[18px] font-semibold p-6">
+                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6">
                     CRIAR CONTA
                 </Button>
                 <Link href={"/login"}>

@@ -25,8 +25,8 @@ export function FormLogin(){
 
     return (
         <Form {...form}>
-            <form className="space-y-4 w-full" onSubmit={form.handleSubmit(onSubmit)}>
-                <h1 className="text-[30px] font-semibold text-foreground">Login</h1> 
+            <form className="space-y-2 lg:space-y-4 w-full" onSubmit={form.handleSubmit(onSubmit)}>
+                <h1 className="text-[24px] md:text-[30px] font-semibold text-foreground">Login</h1> 
                 <FormFieldCustom name="email" control={form.control} label="Email" placeholder="Insira seu email de cadastro" type="email"/>
                 <FormFieldCustom name="password" control={form.control} label="Senha" placeholder="Insira sua senha" type="password"/>
 
@@ -36,7 +36,7 @@ export function FormLogin(){
                 >
                     Esqueci minha senha
                 </p>
-                <Button type="submit" className="w-full text-[18px] font-semibold p-6">
+                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6">
                     FAZER LOGIN
                 </Button>
                 <Link href={"/register"}>
