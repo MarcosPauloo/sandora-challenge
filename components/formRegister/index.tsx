@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import { Button, Form } from "@/components/ui/";
-import { InputComponent, FormFieldCustom } from "@/components/index";
+import { FormFieldCustom, HoverUseTerm } from "@/components/index";
 
 import { RegisterFormSchema, registerSchema } from "@/lib/schemas/auth-schema";
 export function FormRegister(){
@@ -40,7 +40,7 @@ export function FormRegister(){
                     className="text-[12px] font-semibold text-input text-left"
                     onClick={() => {console.log("Esqueci minha senha")}}
                 >
-                    Ao criar sua conta, você concorda com nossos <span className="text-primary underline hover:text-primary/80 cursor-pointer">Termos de Uso</span> e <span className="text-primary underline">Política de Privacidade.</span>
+                    Ao criar sua conta, você concorda com nossos <HoverUseTerm/> e <span className="text-primary underline">Política de Privacidade.</span>
                 </p>
                 <Button type="submit" className="w-full text-[18px] font-semibold p-6">
                     CRIAR CONTA

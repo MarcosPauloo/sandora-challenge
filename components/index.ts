@@ -6,6 +6,7 @@ import { CustomInput } from "./customInput"
 import { FormRegister } from "./formRegister";
 import { TextRegister } from "./textRegister";
 import { FormFieldCustom } from "./formFieldCustom";
+import { HoverUseTerm } from "./hoverUseTerm";
 
 export { 
     TextLogin,
@@ -16,4 +17,5 @@ export {
     FormRegister,
     TextRegister,
     FormFieldCustom,
+    HoverUseTerm,
 };
