@@ -36,7 +36,7 @@ export function FormLogin(){
                 >
                     Esqueci minha senha
                 </p>
-                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6">
+                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6" aria-label="Entrar na plataforma">
                     FAZER LOGIN
                 </Button>
                 <Link href={"/register"}>

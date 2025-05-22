@@ -19,7 +19,7 @@ export function FormFieldCustom({type, placeholder, control, label, name}: Input
                 <FormItem>
                 <FormLabel className="text-[14px] font-medium text-foreground">{label}</FormLabel>
                 <FormControl>
-                    <InputComponent type={type} placeholder={placeholder} {...field}/>
+                    <InputComponent type={type} placeholder={placeholder} {...field} nameField={label}/>
                 </FormControl>
                 <FormMessage className="text-[12px] font-medium text-red-400"/>
                 </FormItem>

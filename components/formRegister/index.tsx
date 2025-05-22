@@ -42,7 +42,7 @@ export function FormRegister(){
                 >
                     Ao criar sua conta, você concorda com nossos <HoverUseTerm/> e <span className="text-primary underline">Política de Privacidade.</span>
                 </p>
-                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6">
+                <Button type="submit" className="w-full text-[18px] font-semibold p-4 md:p-6" aria-label="Registrar na plataforma">
                     CRIAR CONTA
                 </Button>
                 <Link href={"/login"}>

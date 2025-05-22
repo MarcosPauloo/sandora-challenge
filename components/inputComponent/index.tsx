@@ -7,10 +7,10 @@ import { RiEyeOffLine, RiEyeLine } from "react-icons/ri";
 interface InputComponentProps {
     type: "password" | "email" | "text";
     placeholder: string;
-    
+    nameField: string;
 }
 
-export function InputComponent({type,placeholder, ...props}: InputComponentProps) {
+export function InputComponent({type,placeholder, nameField, ...props}: InputComponentProps) {
     const [showPassword, setShowPassword] = useState(true);
 
     const isPassword = type === "password";
@@ -18,7 +18,13 @@ export function InputComponent({type,placeholder, ...props}: InputComponentProps
 
     return (
         <div className="relative w-full">
-            <Input type={inputType} placeholder={placeholder} className={`${isPassword ? 'pr-10' : 'pl-3'}`} {...props}/>
+            <Input 
+                type={inputType} 
+                placeholder={placeholder} 
+                className={`${isPassword ? 'pr-10' : 'pl-3'}`} 
+                aria-label={`Campo ${nameField}`}
+                {...props}
+            />
         
             {isPassword && (
                 <button
