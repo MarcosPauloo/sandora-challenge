@@ -32,21 +32,3 @@ export function InputComponent({type,placeholder, ...props}: InputComponentProps
         </div>
     )
 }
-
-{/* <div className="flex flex-col gap-1">
-            <label className="text-[14px] font-medium text-foreground">{label}</label>
-            <div className="relative w-full">
-                <Input type={inputType} placeholder={placeholder} className={`${isPassword ? 'pr-10' : 'pl-3'}`}/>
-            
-                {isPassword && (
-                    <button
-                        type="button"
-                        onClick={() => setShowPassword(!showPassword)}
-                        className="absolute right-3 top-1/2 -translate-y-1/2 text-secondary"
-                    >
-                        {showPassword ? <RiEyeOffLine /> : <RiEyeLine />}
-                    </button>
-                )}
-            </div>
-                
-        </div> */}

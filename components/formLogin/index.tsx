@@ -29,23 +29,7 @@ export function FormLogin(){
                 <h1 className="text-[30px] font-semibold text-foreground">Login</h1> 
                 <FormFieldCustom name="email" control={form.control} label="Email" placeholder="Insira seu email de cadastro" type="email"/>
                 <FormFieldCustom name="password" control={form.control} label="Senha" placeholder="Insira sua senha" type="password"/>
-{/*                 <FormField
-                    control={form.control}
-                    name="email"
-                    render={({ field }) => (
-                        <FormItem>
-                            <FormLabel className="text-[14px] font-medium text-foreground">Email</FormLabel>
-                            <FormControl>
-                                <InputComponent type="email" placeholder="Insira seu email de cadastro" {...field}/>
-                            </FormControl>
-                            <FormMessage className="text-[12px] font-medium text-red-400"/>
-                        </FormItem>
-                    )}
-                /> */}
 
-                
-                {/* <InputComponent type="email" placeholder="Insira seu email de cadastro" label="Email"/>
-                <InputComponent type="password" placeholder="Insira sua senha" label="Senha"/> */}
                 <p
                     className="text-[12px] font-semibold underline text-input hover:text-primary/80 cursor-pointer text-left"
                     onClick={() => {console.log("Esqueci minha senha")}}
@@ -69,27 +53,3 @@ export function FormLogin(){
         
     )
 }
-    
-
-/*     <form className="space-y-4 w-full" >
-            <h1 className="text-[30px] font-semibold text-foreground">Login</h1> 
-            <InputComponent type="email" placeholder="Insira seu email de cadastro" label="Email"/>
-            <InputComponent type="password" placeholder="Insira sua senha" label="Senha"/>
-            <p
-                className="text-[12px] font-semibold underline text-input hover:text-primary/80 cursor-pointer text-left"
-                onClick={() => {console.log("Esqueci minha senha")}}
-            >
-                Esqueci minha senha
-            </p>
-            <Button type="submit" className="w-full text-[18px] font-semibold p-6">
-                FAZER LOGIN
-            </Button>
-            <Link href={"/register"}>
-                <p
-                    className="text-[12px] font-semibold underline text-input hover:text-primary/80 cursor-pointer text-center"
-                    onClick={() => {console.log("Esqueci minha senha")}}
-                    >
-                    Não possui conta? Cadastre-se
-                </p>    
-            </Link>
-        </form> */
