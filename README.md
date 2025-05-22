@@ -6,7 +6,7 @@ Este projeto é uma interface moderna e acessível para um sistema de **Login** 
 
 - **Nome:** Marcos Paulo  
 - **GitHub:** [@MarcosPauloo](https://github.com/MarcosPauloo)
-- **Link do deploy** [@sandoraAuth.me](https://sandora-challenge.vercel.app/)
+- **Link do deploy** [sandora-challenge](https://sandora-challenge.vercel.app/)
 
 ---
 
