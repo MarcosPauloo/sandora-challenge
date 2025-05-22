@@ -1,11 +1,13 @@
-import Image from "next/image";
 
-import Login from "./login/page";
 import { AuthLayout } from "@/components/index";
-import { Button, Input } from "@/components/ui/";
+
+import { TextLogin, FormLogin } from "@/components/index";
 
 export default function Home() {
   return (
-    <AuthLayout/>
+    <AuthLayout
+      leftContent={<TextLogin />}
+      rightContent={<FormLogin />}
+    />
   );
 }

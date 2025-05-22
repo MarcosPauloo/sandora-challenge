@@ -1,5 +1,12 @@
+import { AuthLayout } from "@/components/index";
+
+import { TextLogin, FormLogin } from "@/components/index";
+
 export default function Login(){
     return (
-        <div className="text-black bg-red-400">asdasds</div>
+       <AuthLayout
+            leftContent={<TextLogin />}
+            rightContent={<FormLogin />}
+        />
     );
 }

@@ -3,6 +3,9 @@ import { AuthLayout } from "./layoutAuth";
 import { FormLogin } from "./formLogin";
 import { InputComponent } from "./inputComponent";
 import { CustomInput } from "./customInput"
+import { FormRegister } from "./formRegister";
+import { TextRegister } from "./textRegister";
+import { FormFieldCustom } from "./formFieldCustom";
 
 export { 
     TextLogin,
@@ -10,5 +13,7 @@ export {
     FormLogin,
     InputComponent,
     CustomInput,
-    
+    FormRegister,
+    TextRegister,
+    FormFieldCustom,
 };
